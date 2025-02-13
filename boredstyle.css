@@ -1,0 +1,1033 @@
+body  {background-color: black;
+      background: linear-gradient(180deg, rgba(0,0,0) 35%, rgb(219, 23, 219) 100%, rgba(0,0,0) 50%);}
+	  
+#back  {background-image:url("Glyph Music Logo GM copy.jpg");
+       background-size: 100%;
+	   background-repeat: no-repeat;
+	   background-color: black;
+       background-attachment: local;
+	   background-position-y: -140px;
+	   padding-top: 30px;
+	   padding-bottom: 30px;}
+
+#center  {text-align: center;
+         width: 100%}
+
+h1  {text-shadow: 10px 10px 10px black, 0 0 30px deeppink, 0 0 5px darkviolet;
+	width: 80%;
+	font-size: 45px; 
+	text-align: center;
+	color: deeppink;
+	font-weight: bold;
+	font-family: serif;
+	text-decoration: underline;
+	border-bottom: solid deeppink 5px;
+	letter-spacing: .1em;
+	margin-left: auto;
+    margin-right: auto;}
+
+
+h2  {width: 25%;
+	font-size: 30px; 
+	text-align: center;
+	color: darkviolet;
+	font-family: serif;}
+
+h3  {width: 100%;
+	font-size: 20px; 
+	text-align: center;
+	color: darkviolet;
+	background-color: whitesmoke;
+	font-family: serif;
+	margin-left: auto;
+	margin-right: auto;}
+
+h4  {width:70%;
+	font-size: 20px; 
+	text-align: left;
+	color: darkviolet;
+	background-color: whitesmoke;
+	font-family: serif;
+	padding-left: 10px;}
+
+#link  {padding: 3px;
+	   margin-left: auto;
+	   margin-right: auto;}
+
+.navBar  {display: flex;
+         justify-content: space-between;
+		 align-items: center;
+		 padding-left: 25px;
+		 padding-right: 25px;
+		 margin-left: auto;
+	     margin-right: auto;}
+
+.artWrapBar  {display: flex;
+		     align-items: center;
+		     justify-content: center;
+			 width: auto;
+		     max-width: 1000px;
+			 margin-left: auto;
+	         margin-right: auto;}
+
+.wrapBar  {display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  margin-left: auto;
+	      margin-right: auto;
+		  width: auto;
+		  width: 100%}
+
+.topAnc  {justify-content: space-between;
+		 text-align: center;
+		 padding-left: 25px;
+		 padding-right: 25px;
+		 margin-left: auto;
+	     margin-right: auto;
+		 width: 61%;
+		 height: 15%;}
+
+.artText  {min-height: 325px;}
+
+hr  {border: solid deeppink 2px;
+	margin: 20px;}
+
+#wrapper  {border: solid deeppink 3px;
+		  padding: 7px;
+		  width: 60%;
+		  background-color: whitesmoke;
+		  align-items: center;
+		  font-family: Arial, Helvetica, sans-serif;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;}
+
+#wrapperC  {border: solid deeppink 3px;
+		   padding: 7px;
+		   width: 80%;
+		   background-color: whitesmoke;
+		   align-items: center;
+		   font-family: Arial, Helvetica, sans-serif;
+		   margin-left: auto;
+		   margin-right: auto;
+		   text-align: center;}
+
+
+.wrapper2  {border: solid deeppink 3px;
+		   padding: 5px;
+		   width: auto;
+		   max-width: 750px;
+		   background-color: whitesmoke;
+		   font-family: Arial, Helvetica, sans-serif;}
+
+a  {text-decoration: none;
+   border: solid deeppink 3px;
+   padding: 7px;
+   background-color: whitesmoke;
+   color: darkviolet;
+   font-family: serif;
+   font-size: 24px;
+   font-weight: bold;
+   margin: 5px}
+
+a:hover  {text-decoration: underline;
+		 border: solid deeppink 3px;
+		 padding: 10px;
+		 background-color: darkmagenta;
+		 color: deeppink;
+		 font-family: Arial, Helvetica, sans-serif;
+		 transform: scale(1.2);
+		 font-weight: bold;
+		 margin: 0px}
+
+.musicVid  {text-decoration: none;
+           border: solid deeppink 3px;
+           padding: 2px;
+           background-color: whitesmoke;
+           color: darkviolet;
+           font-family: serif;
+           font-size: 16px;
+           font-weight: bold;
+           margin: 1px;}
+
+.musicVid:hover  {text-decoration: underline;
+		         border: solid deeppink 3px;
+		         padding: 2px;
+		         background-color: darkmagenta;
+		         color: deeppink;
+		         font-family: Arial, Helvetica, sans-serif;
+		         font-size: 14.5px;
+		         font-weight: bold;
+		         margin: 1px;}
+
+.rightFloat  {float: right;
+			 border: solid deeppink 3px;
+			 padding: 3px;
+			 background-color: darkmagenta;}
+	
+
+.centerFloat  {border: solid deeppink 3px;
+			  padding: 3px;
+              background-color: darkmagenta;}
+
+.leftFloat  {float: right;
+			border: solid deeppink 3px;
+			padding: 3px;
+			background-color: darkmagenta;}
+
+.floatLeft  {float: left;}
+
+.floatRight	{float: right;}
+
+footer  {border: solid deeppink 3px;
+		padding: 5px;
+		width: 275px;
+		background-color: whitesmoke;
+		font-size: 75%;
+        font-family: Georgia, "Times New Roman", serif;
+		text-align: center;}
+
+#invis  {align-items:center;
+		padding: 5px;
+		width: 320px;
+		margin-left: auto;
+		margin-right: auto;}
+
+#profile  {border-radius: 25%;
+          width: 20%;
+		  height: 2%;
+		  display: flex;
+		  margin-top: 50px;
+		  margin-bottom: 50px;
+		  margin-left: auto;
+		  margin-right: auto;}
+
+#mail  {text-decoration: none;
+	   border: solid deeppink 3px;
+	   padding: 7px;
+	   background-color: whitesmoke;
+	   color: darkviolet;
+	   font-family: serif;
+       font-size: 16px;}
+
+#mail:hover  {text-decoration: underline;
+		     border: solid deeppink 3px;
+		     padding: 10px;
+		     background-color: darkmagenta;
+		     color: deeppink;
+		     font-family: Arial, Helvetica, sans-serif;
+		     transform: scale(1.2);
+		     font-weight: bold;}
+
+#mcSkin  {border-radius: 25%;
+         display: flex;
+		 margin-top: 50px;
+		 margin-bottom: 30px;
+		 margin-left: auto;
+		 margin-right: auto;
+		 width: 15%;
+		 height: 15%;}
+
+#musicSkin  {border-radius: 25%;
+            display: flex;
+		    margin-top: 25px;
+		    margin-bottom: 40px;
+		    margin-left: auto;
+		    margin-right: auto;
+		    width: 57%;
+		    height: 85%;}
+
+#designSkin  {border-radius: 25%;
+             display: flex;
+		     margin-top: 50px;
+		     margin-bottom: 60px;
+			 margin-left: auto;
+		     margin-right: auto;
+			 width: 20%;
+			 height: 2%;}
+
+#artSkin  {border-radius: 25%;
+          display: flex;
+		  margin-top: auto;
+		  margin-bottom: auto;
+		  margin-left: auto;
+		  margin-right: auto;
+		  width: 57%;
+		  height: 85%;}
+
+.art  {float: right;
+	  border: solid deeppink 3px;
+	  padding: 3px;
+	  background-color: darkmagenta;
+	  padding-bottom: 0px;
+	  border-radius: 25%;}
+
+.design  {float: right;
+	     border: solid deeppink 3px;
+	     padding: 3px;
+	     background-color: black;
+	     padding-bottom: 0px;
+		 border-radius: 25%;}
+
+.design2  {float: right;
+	      border: solid deeppink 3px;
+	      padding: 3px;
+	      background-color: black;
+	      padding-bottom: 0px;
+		  border-radius: 25%;}
+
+.invisL  {text-align:left;
+		 padding-left: 5px;
+		 width: 400px;
+		 min-height: 155px;}
+	 
+.invisR  {float:right;
+		 padding: 5px;
+		 width: 300px;
+		 height: 450px;
+		 object-fit: cover;}
+
+.rightPic  {border-radius: 25%;
+           padding: 3px;
+		   text-align: right;
+		   float: right;
+		   border: solid deeppink 3px;
+		   background-color: darkmagenta;}
+
+.leftPic  {border-radius: 25%;
+          padding: 3px;
+		  text-align: left;
+		  float: right;
+		  border: solid deeppink 3px;
+		  background-color: darkmagenta;}
+
+#pTab  {padding-left: 25px;}
+
+.invisArt  {float:left;
+		    padding: 5px;
+            width: 400px;
+			text-align: left;
+			flex-basis: 61%;}
+
+.textBox  {float:left;
+		  padding: 5px;
+          width: 100%;
+	      text-align: left;
+		  flex-basis: 61%;}
+
+.rightVid  {border-radius: 25%;
+           padding: 3px;
+		   text-align: right;
+		   float: right;
+		   border: solid deeppink 3px;
+		   background-color: darkmagenta;}
+
+.leftVid  {border-radius: 15%;
+          padding: 5px;
+		  float: left;
+		  border: solid deeppink 3px;
+		  background-color: darkmagenta;}
+
+.t1  {float: left;
+     padding: 20px;
+     width: 50%;
+     height: auto;
+     margin: 5px;}
+
+.t2  {float: right;
+     padding: 20px;
+     width: 50%;
+     height: auto;
+     margin: 5px;
+	 text-align: right;}
+
+.t3  {float: left;
+     padding: 20px;
+	 padding-right: 5px;
+     width: 45%;
+     height: auto;
+     margin: 5px;
+	 text-align: left;}
+
+.t4  {float: right;
+     padding: 20px;
+     width: 55%;
+     height: auto;
+     margin: 5px;}
+
+.tableBar  {display: flex;
+		   width: 100%;
+		   height: 400px;
+		   margin-left: auto;
+		   margin-right: auto;}
+
+.artTableBar  {display: flex;
+		      width: 100%;
+		      height: 400px;
+		      margin-left: auto;
+		      margin-right: auto;}
+
+#c1  {float: left;
+     padding: 0px;
+     width: 33%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+	 display: flex;}
+
+#c1 ul  {list-style-type: none;
+        margin-left: auto;
+        margin-right: auto;
+		margin-top: auto;
+        margin-bottom: auto;
+        padding: 0px;}
+
+#c1 ul li  {padding-top: 20%;
+           padding-bottom: 20%;
+		   width: 100%}
+
+#c2  {float: right;
+     padding: 20px;
+     width: 33%;
+     height: auto;
+     margin: 5px;}
+
+#c3  {float: right;
+     padding: 0px;
+     width: 33%;
+     height: auto;
+     margin-left: auto;
+     margin-right: auto;
+	 display: flex;}
+
+#c3 ul  {list-style-type: none;
+        margin-left: auto;
+        margin-right: auto;
+		margin-top: auto;
+        margin-bottom: auto;
+        padding: 0px;}
+
+#c3 ul li  {padding-top: 20%;
+           padding-bottom: 20%;
+		   width: 100%}
+
+.topAncR  {float: left;
+          width: 50%;
+		  margin-bottom: 5px;}
+
+div.scroll-container  {overflow: auto;
+                      white-space: nowrap;
+                      padding-top: 10px;
+					  padding-bottom: 10px;
+					  padding-left: 5px;
+					  padding-right: 5px;
+                      border: solid deeppink 3px;
+					  background-color: #303030;
+					  height: auto;
+					  box-shadow: 0 0 10px black, 0 0 30px deeppink, 0 0 5px darkviolet;}
+
+div.scroll-container img  {padding: 3px;
+                          width: 710.4px;
+                          height: 399.6px;
+                          border: solid deeppink 3px;
+						  margin-left: auto;
+	                      margin-right: auto;
+                          background-color: darkmagenta;
+                          border-radius: 25%;
+						  box-shadow: 10px 10px 10px black, 0 0 30px deeppink, 0 0 5px darkviolet;
+						  text-align:center;}
+
+div.scroll-container p  {padding: 10px;
+                        width: 432px;
+                        height: 100%;
+                        border: solid deeppink 3px;
+                        padding: 10px;
+						margin: 5px;
+	                    margin-left: auto;
+	                    margin-right: auto;
+                        background-color: whitesmoke;
+                        color: darkviolet;
+                        border-radius: 25%;
+						box-shadow: 10px 10px 10px black, 0 0 30px deeppink, 0 0 5px darkviolet;
+						font-family: Arial, Helvetica, sans-serif;
+                        font-size: 12px;
+						font-weight: bold;
+						overflow-wrap: break-word;
+						text-align: center;}
+
+div.scroll-container h3  {padding: 10px;
+	                     width: 432px;
+                         height: 100%;
+	                     font-size: 20px; 
+	                     text-align: center;
+	                     color: darkviolet;
+	                     background-color: whitesmoke;
+						 border: solid deeppink 3px;
+	                     font-family: serif;
+						 margin: 5px;
+	                     margin-left: auto;
+	                     margin-right: auto;
+						 border-radius: 25%;
+						 box-shadow: 10px 10px 10px black, 0 0 30px deeppink, 0 0 5px darkviolet;}
+
+table  {border: 1px solid #303030;
+       width: auto;
+	   border-spacing: 0;
+	   border-collapse: collapse;
+	   column-gap: 10px;}
+
+th  {padding: 5px;
+	width: 100%;
+	height: 100%;
+	text-align: center;}
+
+div.scroll-container td  {white-space: normal;
+	                     padding: 10px;
+	                     width: 100%;
+	                     height: 100%;
+	                     text-align: center;
+	                     margin-left: auto;
+                         margin-right: auto;
+	                     margin-top: auto;
+                         margin-bottom: auto;}
+
+div.scroll-container p {width: 80%;
+	                   text-align: center;
+					   white-space: normal;
+					   margin-left: auto;
+                       margin-right: auto;
+	                   margin-top: auto;
+                       margin-bottom: auto;}
+
+#mcb  {background: black;
+	  border: solid deeppink 3px;}
+
+div #messageBox label  {text-align: center;
+	                width: 125px;}
+
+input, textarea  {margin-bottom: 20px;}
+
+form  {width: 100%;}
+
+#messageBox label  {text-align: center;
+	               width: 100%;
+                   margin-bottom: 20px;
+			       margin-right: auto;
+			       margin-left: auto;}
+
+.labelLine  {text-align:center;
+            width: 100%;}
+
+.labelLineL  {float: left;
+             margin-bottom: 20px;
+			 width: 50%;}
+
+.labelLineR  {float: right;
+             margin-bottom: 20px;
+			 width: 50%;}
+
+.labelLine2L  {float: left;
+              margin-bottom: 20px;
+			  width: 60%;}
+
+.labelLine2R  {float: right;
+              margin-bottom: 20px;
+			  width: 40%;}
+
+::-webkit-scrollbar  {width: 10px;}
+::-webkit-scrollbar-track  {background: black;}
+::-webkit-scrollbar-thumb  {background: darkmagenta;
+                           border-radius: 30px;}
+::-webkit-scrollbar-thumb:hover  {background: deeppink; 
+                                 border-radius: 30px;}
+
+
+@media screen and (max-width: 26.5em) and (min-width: 19.5em) {
+body  {background-image: none;
+      background-color: black;}
+
+nav a  {display: block;
+       font-size: 40px;}
+
+#back  {background-image:url("Glyph Music Logo GM copy.jpg");
+       background-size: 100%;
+	   background-repeat: no-repeat;
+	   background-color: black;
+       background-attachment: local;
+	   background-position-y: -65px;
+	   padding-top: 30px;
+	   padding-bottom: 30px;}
+
+h1  {font-size: 2em;}
+	
+h2  {width: 25%;
+	font-size: 30px; 
+	text-align: center;
+	color: darkviolet;
+	font-family: serif;}
+	
+h3  {font-size: 50px; }
+
+h4  {width:70%;
+	font-size: 20px; 
+	text-align: left;
+	color: darkviolet;
+	background-color: whitesmoke;
+	font-family: serif;
+	padding-left: 10px;}
+
+#link  {display: flex;
+	   padding: 3px;
+	   margin-left: auto;
+	   margin-right: auto;}
+
+.navBar  {justify-content: space-between;
+		 align-items: center;
+		 padding-left: 25px;
+		 padding-right: 25px;
+		 margin-left: auto;
+	     margin-right: auto;
+		 width: 100%;}
+
+.navBar a  {font-size: 40px;}
+
+.artWrapBar  {display: flex;
+		     align-items: center;
+		     justify-content: center;
+			 width: auto;
+		     max-width: 1000px;
+			 margin-left: auto;
+	         margin-right: auto;}
+
+.wrapBar  {display: flex;
+		  align-items: center;
+		  justify-content: center;
+		  margin-left: auto;
+	      margin-right: auto;
+		  width: 100%;}
+
+.topAnc  {justify-content: space-between;
+		 text-align: center;
+		 padding-left: 25px;
+		 padding-right: 25px;
+		 margin-left: auto;
+	     margin-right: auto;
+		 width: 61%;
+		 height: 15%;}
+
+.artText  {min-height: auto;}
+
+hr  {border: solid deeppink 2px;
+	margin: 20px;}
+
+#wrapper  {display: flex;
+	      border: solid deeppink 3px;
+		  padding: 7px;
+		  width: 80%;
+		  height: auto;
+		  background-color: whitesmoke;
+		  align-items: center;
+		  font-family: Arial, Helvetica, sans-serif;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;}
+
+#wrapper h3 {font-size: 50px;}
+
+#wrapper p  {font-size: 30px;}
+
+.wrapper2  {border: solid deeppink 3px;
+		   padding: 5px;
+		   width: auto;
+		   max-width: 750px;
+		   background-color: whitesmoke;
+		   font-family: Arial, Helvetica, sans-serif;}
+		   
+a  {font-size: 40px;}
+
+a:hover  {transform: scale(1.2);}
+
+.musicVid  {text-decoration: none;
+           border: solid deeppink 3px;
+           padding: 2px;
+           background-color: whitesmoke;
+           color: darkviolet;
+           font-family: serif;
+           font-size: 16px;
+           font-weight: bold;
+           margin: 1px;}
+
+.musicVid:hover  {text-decoration: underline;
+		         border: solid deeppink 3px;
+		         padding: 2px;
+		         background-color: darkmagenta;
+		         color: deeppink;
+		         font-family: Arial, Helvetica, sans-serif;
+		         font-size: 14.5px;
+		         font-weight: bold;
+		         margin: 1px;}
+
+.rightFloat  {float: right;
+			 border: solid deeppink 3px;
+			 padding: 3px;
+			 background-color: darkmagenta;}
+
+.centerFloat  {border: solid deeppink 3px;
+			  padding: 3px;
+              background-color: darkmagenta;}
+
+.leftFloat  {float: right;
+			border: solid deeppink 3px;
+			padding: 3px;
+			background-color: darkmagenta;}
+
+.floatLeft  {float: left;}
+
+.floatRight	{float: right;}
+
+footer  {border: solid deeppink 3px;
+		padding: 5px;
+		width: 100%;
+		background-color: whitesmoke;
+		font-size: 100%;
+        font-family: Georgia, "Times New Roman", serif;
+		text-align: center;}
+
+#invis  {align-items:center;
+		padding: 5px;
+		width: 50%;
+		margin-left: auto;
+		margin-right: auto;}
+
+#profile  {border-radius: 25%;
+          width: 30%;
+		  height: 3%;
+		  display: flex;
+	      margin-top: 0px;
+		  margin-bottom: 0px;}
+
+#mail  {text-decoration: none;
+	   border: solid deeppink 3px;
+	   padding: 7px;
+	   background-color: whitesmoke;
+	   color: darkviolet;
+	   font-family: serif;
+       font-size: 16px;}
+
+#mail:hover  {text-decoration: underline;
+		     border: solid deeppink 3px;
+		     padding: 10px;
+		     background-color: darkmagenta;
+		     color: deeppink;
+		     font-family: Arial, Helvetica, sans-serif;
+		     transform: scale(1.2);
+		     font-weight: bold;}
+
+#mcSkin  {border-radius: 25%;
+         display: flex;
+		 width: 19%;
+		 height: 19%;
+		 margin-top: 0px;
+		 margin-bottom: 0px;}
+
+#musicSkin  {border-radius: 25%;
+            width: 65%;
+		    height: 65%;
+		    display: flex;
+			margin-top: 5px;
+			margin-bottom: 0px;
+			margin-left: auto;
+		    margin-right: auto;}
+
+#designSkin  {border-radius: 25%;
+             width: 28.5%;
+		     height: 2.85%;
+		     display: flex;
+			 margin-top: 0px;
+			 margin-bottom: 0px;}
+
+#artSkin  {border-radius: 25%;
+          width: 85%;
+		  height: 85%;
+		  display: flex;
+		  margin-top: 5px;
+		  margin-bottom: 0px;
+		  margin-left: auto;
+		  margin-right: auto;
+		  margin-top: auto;
+		  margin-bottom: auto;}
+
+.art  {float: right;
+	  border: solid deeppink 3px;
+	  padding: 3px;
+	  background-color: darkmagenta;
+	  padding-bottom: 0px;
+	  border-radius: 25%;}
+
+.design  {float: right;
+	     border: solid deeppink 3px;
+	     padding: 3px;
+	     background-color: black;
+	     padding-bottom: 0px;
+		 border-radius: 25%;
+		 display: flex;
+		 width: 93%;
+		 height: 93%;}
+
+.design2  {align-items: center;
+	      border: solid deeppink 3px;
+	      padding: 3px;
+	      background-color: black;
+	      padding-bottom: 0px;
+		  border-radius: 25%;
+		  display: flex;
+		  width: 90%;
+		  height: 90%;}
+
+.invisL  {text-align:left;
+		 padding-left: 5px;
+		 width: 400px;
+		 min-height: auto;}
+
+.invisR  {float:right;
+		 padding: 5px;
+		 width: 300px;
+		 height: 450px;
+		 object-fit: cover;}	
+
+.rightPic  {border-radius: 25%;
+           padding: 3px;
+		   text-align: right;
+		   float: right;
+		   border: solid deeppink 3px;
+		   background-color: darkmagenta;
+		   width: auto;
+		   height: auto;
+		   display: flex;}
+
+.leftPic  {border-radius: 25%;
+          padding: 3px;
+		  text-align: left;
+		  float: left;
+		  border: solid deeppink 3px;
+		  background-color: darkmagenta;}
+
+#pTab  {padding-left: 25px;}
+
+.invisArt  {float:left;
+		    padding: 5px;
+            width: 400px;
+			text-align: left;
+			flex-basis: 61%;}
+
+.textBox  {float:left;
+		  padding: 5px;
+          width: 100%;
+	      text-align: left;
+		  flex-basis: 61%;}	
+
+.rightVid  {border-radius: 15%;
+           padding: 5px;
+		   float: left;
+		   border: solid deeppink 3px;
+		   background-color: darkmagenta;
+		   margin-bottom: 7px;}	
+
+.leftVid  {border-radius: 15%;
+          padding: 5px;
+		  float: left;
+		  border: solid deeppink 3px;
+		  background-color: darkmagenta;}	
+
+.t1  {float: left;
+     padding: 20px;
+     width: 50%;
+     height: 50%;
+     margin: 5px;
+	 display: flex;}
+
+.t2  {float: right;
+     padding: 20px;
+     width: 50%;
+     height: auto;
+     margin: 5px;
+	 text-align: right;
+	 display: flex;}
+
+.t3  {float: left;
+     padding: 20px;
+	 padding-right: 0px;
+     width: 65%;
+     height: 100%;
+     margin: 5px;
+	 margin-right: 0px;
+	 text-align: left;
+	 display: flex;}
+
+.t4  {align-items: center;
+     padding: 20px;
+     width: 35%;
+     height: 200%;
+     margin: 5px;
+	 display: flex;}
+
+.tableBar  {display: flex;
+		   width: 100%;
+		   height: auto;
+		   justify-content: space-between;}	
+
+.artTableBar  {display: flex;
+		      width: 100%;
+		      height: 220px;
+		      justify-content: space-between;
+			  background-image:url("Glyph Music Logo GM copy.jpg");
+              background-size: 100%;
+	          background-color: black;
+              background-attachment: local;
+		      background-position-y: -65px;}
+
+#c1  {float: left;
+     padding: 5px;
+     width: 30%;
+     height: auto;
+     margin: 5px;}
+
+#c1 ul  {list-style-type: none;
+        padding: 20px}
+
+#c1 ul li  {padding-top: 10%;
+           padding-bottom: 10%;}
+		   
+#c2  {padding: 20px;
+     width: 40%;
+     height: auto;
+     margin: 5px;}
+
+#c3  {float: right;
+     padding: 5px;
+     width: 30%;
+     height: auto;
+     margin: 5px;}
+
+#c3 ul  {list-style-type: none;
+		padding-right: 40px;}
+
+#c3 ul li  {padding-top: 10%;
+           padding-bottom: 10%;}
+		   
+.topAncR  {float: left;
+          width: 100%;
+		  margin-bottom: 5px;}
+		  
+div.scroll-container  {overflow: auto;
+                      white-space: nowrap;
+                      padding-top: 10px;
+					  padding-bottom: 10px;
+					  padding-left: 5px;
+					  padding-right: 5px;
+                      border: solid deeppink 3px;
+					  background-color: #303030;
+					  height: auto;
+					  box-shadow: 0 0 10px black, 0 0 30px deeppink, 0 0 5px darkviolet;
+				      display: flex;}
+
+div.scroll-container img  {padding: 3px;
+                          width: 480px;
+                          height: 270px;
+                          border: solid deeppink 3px;
+						  margin-left: auto;
+	                      margin-right: auto;
+                          background-color: darkmagenta;
+                          border-radius: 25%;
+						  box-shadow: 10px 10px 10px black, 0 0 30px deeppink, 0 0 5px darkviolet;
+						  text-align:center;}
+
+div.scroll-container p  {padding: 10px;
+                        width: 432px;
+                        height: 100%;
+                        border: solid deeppink 3px;
+                        padding: 10px;
+						margin: 5px;
+	                    margin-left: auto;
+	                    margin-right: auto;
+                        background-color: whitesmoke;
+                        color: darkviolet;
+                        border-radius: 25%;
+						box-shadow: 10px 10px 10px black, 0 0 30px deeppink, 0 0 5px darkviolet;
+						font-family: Arial, Helvetica, sans-serif;
+                        font-size: 12px;
+						font-weight: bold;
+						overflow-wrap: break-word;
+						text-align: center;}
+
+div.scroll-container h3  {padding: 10px;
+	                     width: 432px;
+                         height: 100%;
+	                     font-size: 20px; 
+	                     text-align: center;
+	                     color: darkviolet;
+	                     background-color: whitesmoke;
+						 border: solid deeppink 3px;
+	                     font-family: serif;
+						 margin: 5px;
+	                     margin-left: auto;
+	                     margin-right: auto;
+						 border-radius: 25%;
+						 box-shadow: 10px 10px 10px black, 0 0 30px deeppink, 0 0 5px darkviolet;}
+
+table  {border: 1px solid #303030;
+       width: 225%;
+	   border-spacing: 0;
+	   border-collapse: collapse;
+	   column-gap: 10px;}
+
+td, th  {padding: 5px;
+		width: 100%;
+		height: 100%;
+		text-align: center;}
+
+td  {text-align: center;
+    padding: 0px;}
+
+#mcb  {background: black;
+	  border: solid deeppink 3px;}
+
+div #messageBox label  {text-align: center;
+	                width: 125px;}
+
+input, textarea  {margin-bottom: 20px;}
+
+form  {width: 100%;}
+
+#messageBox label  {text-align: center;
+	         width: 100%;
+             margin-bottom: 20px;
+			 margin-right: auto;
+			 margin-left: auto;}
+
+.labelLine  {text-align:center;
+            width: 100%;}
+
+.labelLineL  {float: left;
+             margin-bottom: 20px;
+			 width: 50%;}
+
+.labelLineR  {float: right;
+             margin-bottom: 20px;
+			 width: 50%;}
+
+.labelLine2L  {float: left;
+              margin-bottom: 20px;
+			  width: 60%;}
+
+.labelLine2R  {float: right;
+              margin-bottom: 20px;
+			  width: 40%;}
+
+::-webkit-scrollbar  {width: 5px;}
+::-webkit-scrollbar-track  {background: black;}
+::-webkit-scrollbar-thumb  {background: darkmagenta;
+                           border-radius: 30px;}
+::-webkit-scrollbar-thumb:hover  {background: deeppink; 
+                                 border-radius: 30px;}
+}
